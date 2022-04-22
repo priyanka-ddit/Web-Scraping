@@ -10,9 +10,9 @@
 
 5) Put your google API key inside .env file
 
-set FLASK_APP=api.py
+6) set FLASK_APP=api.py
 
-6) Run: flask run (This will start flask server on http://127.0.0.1:5000/)
+7) Run: flask run (This will start flask server on http://127.0.0.1:5000/)
 
 
 # Frontend setup (go to react-frontend directory)
