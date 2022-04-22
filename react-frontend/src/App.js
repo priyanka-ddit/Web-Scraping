@@ -40,7 +40,7 @@ const App = () => {
       <input className='input' placeholder="URL" type="text" value={url} onChange={onUrlChange} />
       <br />
       <button className='submitbtn submitbtn-lg' type="submit" onClick={urlFunction}>
-        Submit
+        Scrap Comments
       </button>
       {loading ? (<ReactBootstrap.Spinner animation="grow" />) : ({error} ? (<p className='error'>{error}</p>) : (<p>"Success"</p>))}
     </div>
