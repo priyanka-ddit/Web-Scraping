@@ -75,7 +75,6 @@ def get_video_id(url):
 def scrape_comments(url):
     #credentials
     api_key = os.getenv('GOOGLE_API_KEY')
-    # api_key = 'AIzaSyAkPu7zJZN4Wsa6gY0H_zdvg2BcHcs6Efw'
     video_id = get_video_id(url)
     res = video_comments(video_id,api_key)
     return res
