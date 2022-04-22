@@ -10,7 +10,7 @@
 
 5) Put your google API key inside .env file
 
-6) set FLASK_APP=api.py
+6) Run: set FLASK_APP=api.py
 
 7) Run: flask run (This will start flask server on http://127.0.0.1:5000/)
 
