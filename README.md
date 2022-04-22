@@ -1,3 +1,5 @@
+This repository will be useful to scrap YouTube comments
+
 # Backend setup (go to python-backend directory)
 
 1) Create virtual environment: py -m venv env
